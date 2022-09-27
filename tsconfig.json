@@ -13,6 +13,6 @@
     "target": "es6",
     "moduleResolution": "node"
   },
-  "files": ["./src/index.ts", "./src/hooks.ts", "./src/routes.ts"],
+  "files": ["./src/index.ts", "./src/hooks.ts"],
   "exclude": ["node_modules", "dist"]
 }
