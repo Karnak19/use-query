@@ -1,6 +1,6 @@
 {
   "name": "use-query-issue",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "",
   "type": "module",
   "source": "src/index.ts",
@@ -10,8 +10,7 @@
     "dist"
   ],
   "exports": {
-    ".": "./dist/index.js",
-    "./hooks": "./dist/hooks.js"
+    ".": "./dist/index.js"
   },
   "scripts": {
     "build": "rm -rf dist && tsc",

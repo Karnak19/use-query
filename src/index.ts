@@ -1,1 +1,1 @@
-export * as hooks from './hooks';
+export { default as useHelloQuery } from "./api/hello";
