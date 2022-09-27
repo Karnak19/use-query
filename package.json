@@ -1,11 +1,14 @@
 {
   "name": "use-query-issue",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "",
+  "type": "module",
   "source": "src/index.ts",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": "./dist/index.js",
     "./hooks": "./dist/hooks.js"
