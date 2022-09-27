@@ -1,5 +1,18 @@
 {
   "compilerOptions": {
-    "target": "esnext"
-  }
+    "jsx": "react",
+    "esModuleInterop": true,
+    "baseUrl": "src",
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true,
+    "strictNullChecks": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "lib": ["dom", "esnext", "DOM.Iterable"],
+    "target": "es6",
+    "moduleResolution": "node"
+  },
+  "files": ["./src/index.ts", "./src/hooks.ts", "./src/routes.ts"],
+  "exclude": ["node_modules", "dist"]
 }
