@@ -1,6 +1,6 @@
 {
   "name": "use-query-issue",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "type": "module",
   "source": "src/index.ts",
